@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--
+	Ideally these elements aren't created until it's confirmed that the 
+	client supports video/camera, but for the sake of illustrating the 
+	elements involved, they are created with markup (not JavaScript)
+-->
+    <!-- <div class="right">
+	<div id="stopButton" class="button">
+	Stop
+	</div>
+	<h2>Recording</h2>
+	<video id="recording" width="160" height="120" controls></video>
+	<a id="downloadButton" class="button">
+	Download
+	</a>
+</div> -->
+
+    <video id="video" autoplay></video>
+    <button id="snap">Snap Photo</button>
+    <canvas id="canvas" width="480" height="640"></canvas>
+    <script src="app.js"></script>
+  </body>
+</html>
