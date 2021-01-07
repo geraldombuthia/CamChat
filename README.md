@@ -1,2 +1,2 @@
-# CamChat
-A simple video chat app that harnesses the power of webRTC to allow users to chat in rooms.
+# Camera
+A simple web app that utilises the front and back camera to take videos and photos.
